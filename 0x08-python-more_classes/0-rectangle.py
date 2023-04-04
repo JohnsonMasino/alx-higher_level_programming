@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
-#This is an empty class 'Rectangle'
-#Code by Masino.
+"""
+This code defines an empty class.
+"""
 
 class Rectangle:
-
+    #Represents an empty rectangle
     pass
