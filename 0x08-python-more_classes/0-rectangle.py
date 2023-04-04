@@ -4,4 +4,5 @@
 #Code by Masino.
 
 class Rectangle:
+
     pass
