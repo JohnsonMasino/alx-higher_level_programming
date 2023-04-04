@@ -5,5 +5,3 @@
 
 class Rectangle:
     pass
-
-#print("\nCode developed by Masino")
