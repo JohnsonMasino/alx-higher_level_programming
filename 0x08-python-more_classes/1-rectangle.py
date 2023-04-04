@@ -2,7 +2,7 @@
 """
 Defines a class Rectangle
 """
-#Code by Masino
+
 
 class Rectangle:
     """Representation of a rectangle"""
