@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This is nqueens backtracking program which prints the coordinates of n queens
+nqueens backtracking program prints the coordinates of n queens
 on an nxn grid so that they all are in a non-attacking positions
 """
 
