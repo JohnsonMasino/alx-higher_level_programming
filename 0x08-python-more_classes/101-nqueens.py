@@ -15,18 +15,18 @@ if __name__ == "__main__":
     if argv[1].isdigit() is False:
         print("N must be a number")
         exit(1)
-    v = int(argv[1])
-    if v < 4:
+    m = int(argv[1])
+    if m < 4:
         print("N must be at least 4")
         exit(1)
 
-    #to initialize the answer list,
-    for i in range(v):
+    # initialize the answer list
+    for i in range(m):
         a.append([i, None])
 
     def already_exists(y):
         """check that a queen does not already exist in that y value"""
-        for x in range(v):
+        for x in range(m):
             if y == a[x][1]:
                 return True
         return False
@@ -44,19 +44,19 @@ if __name__ == "__main__":
 
     def clear_a(x):
         """clears the answers from the point of failure on"""
-        for i in range(x, v):
+        for i in range(x, m):
             a[i][1] = None
 
     def nqueens(x):
         """recursive backtracking function to find the solution"""
-        for y in range(v):
+        for y in range(m):
             clear_a(x)
             if reject(x, y):
                 a[x][1] = y
-                if (x == v - 1):  # accepts the solution
+                if (x == m - 1):  # accepts the solution
                     print(a)
                 else:
                     nqueens(x + 1)  # moves on to next x value to continue
 
-    # must start the recursive process at x = 0
+    # start the recursive process at x = 0
     nqueens(0)
