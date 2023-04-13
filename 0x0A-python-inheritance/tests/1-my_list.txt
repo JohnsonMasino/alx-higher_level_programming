@@ -75,3 +75,8 @@
        [0, 0, 0, 90]
        >>> print(my_list)
        [90, 0, 0, 0]
+
+       >>> my_list = MyList()
+       >>> my_list.append(13042000)
+       >>> print(my_list)
+       [13042000]
