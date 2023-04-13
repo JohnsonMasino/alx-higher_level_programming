@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Contains 'Mylist' Class that Inherits From 'list'
+contains the class "MyList"
 """
 
-class MyList(list):
-    """inherits from list"""
 
+class MyList(list):
+    """a subclass of list"""
     def __init__(self):
-        """initialises the object"""
+        """initializes the object"""
         super().__init__()
 
     def print_sorted(self):
