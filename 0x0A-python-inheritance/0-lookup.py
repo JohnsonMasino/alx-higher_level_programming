@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Returns a list of available attributes and methods of 'lookup' object
+Contains the Function "lookup"
 """
 
 def lookup(obj):
