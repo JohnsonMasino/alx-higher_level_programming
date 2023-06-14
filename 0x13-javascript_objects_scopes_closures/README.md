@@ -22,11 +22,11 @@
 8. You are not allowed to use var
 
 >>INSTALL NODE 14
-$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
+0. $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+1. $ sudo apt-get install -y nodejs
 
 >>INSTALL SEMI-STANDARD
-$ sudo npm install semistandard --global
+0. $ sudo npm install semistandard --global
 
 >>AUTHOR
 0. Johnson Masino Obinna
